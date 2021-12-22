@@ -1,7 +1,18 @@
-`readval` is a command line tool which is designed for one specific purpose--
-to prompt for a value to be included in another command line. `readval` prints
-the prompt on the TTY, reads the input also from the TTY, and echoes the entered
+`readval` is a command line tool which is designed for one specific purpose&mdash;to
+prompt for a value to be included in another command line. `readval` prints the
+prompt on the TTY, reads the input also from the TTY, and echoes the entered
 input to stdout.
+
+Usage
+-----
+
+``` sh
+$ readval -h
+usage: ./readval [OPTIONS] prompt...
+Prints prompts, reads input from TTY, and echoes it back on stdout.
+
+  -s, --silent          Do not echo input
+```
 
 Examples
 -------
