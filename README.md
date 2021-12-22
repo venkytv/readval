@@ -33,3 +33,10 @@ Enter password:
   },
 ...
 ```
+
+Installation
+------------
+
+``` sh
+go install github.com/venkytv/readval@latest
+```
